@@ -1,0 +1,274 @@
+@mixin baseStyle($w:960px, $h:auto, $c:auto){
+	width: $w;
+	height: $h;
+	background: $c;
+	margin: 0 auto;
+}
+@mixin baseFont($s:16px, $lh:auto, $f:'微软雅黑',$c:auto){
+	font-size:$s;
+	line-height:$lh;
+	font-family:$f;
+	color:$c;
+}
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,li,ol,dl,dd,dt{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	@include baseStyle($w:100%,$h:32px,$c:linear-gradient(to bottom,white,rgb(222,222,222)));
+	border: 1px solid #ccc;
+	.headerWidth{
+		@include baseStyle($w:960px);
+		ul{
+			float: left;
+			height: 32px;
+			li{
+				float: left;
+				padding: 0 8px;
+				position: relative;
+				@include baseFont($s:14px, $lh:32px,$c:green);
+				.city{
+					@include baseStyle($w:460px,$h:182px,$c:rgb(155,155,155));
+					position: absolute;
+					left: 0;
+					top: 32px;
+					display: none;
+					z-index: 999;
+				}
+				a{
+					@include baseFont($s:12px, $lh:32px,$c:gray);
+				}
+			}
+			li:nth-child(2){
+				background-image: url(../images/index/header-1.gif);
+				background-repeat: no-repeat;
+				background-position: 100% 7px;
+				height: 30px;
+			}
+		}
+		ol{
+			float: right;
+			@for $i from 1 to 7 {
+				.lis#{$i}{
+					float: left;
+					padding: 0 15px;
+					background-image: url(../images/index/header-1.gif);
+					background-repeat: no-repeat;
+					background-position: 100% 7px;
+					@include baseFont($s:12px, $lh:32px,$c:gray);
+					a{
+						@include baseFont($s:12px, $lh:32px,$c:gray);
+					}
+					.span1{
+						display: inline-block;
+						width: 20px;
+						height: 20px;
+						background-image: url(../images/index/header-1.gif);
+						background-repeat: no-repeat;
+						background-position: 12px -33px;
+					}
+				}
+			}
+			.lis7{
+				float: left;
+				padding-left: 10px;
+				a{
+					@include baseFont($s:12px, $lh:32px,$c:red);
+				}
+			}
+		}
+	}
+}
+.logo{
+	@include baseStyle($h:100px);
+	img{
+		@include baseStyle($w:221px, $h:68px);
+		margin-top: 16px;
+		float: left;
+		display: inline-block;
+	}
+	.logo1{
+		display: inline-block;
+		float: right;
+		@include baseStyle($w:733px, $h:100px);
+		ul{
+			margin-top: 16px;
+			margin-left: 50px;
+			li{
+				float: left;
+				margin: 0 5px;
+				a{
+					@include baseFont($s:10px, $lh:20px,$c:rgb(175,175,175));
+				}
+			}
+		}
+		div{
+			margin-top: 3px;
+			margin-left: 50px;
+			position: relative;
+			#search{
+				@include baseStyle($w:468px,$h:35px);
+				border: 1px solid rgb(17, 136, 85);
+			}
+			.searchBtn{
+				@include baseStyle($w:120px,$h:37px,$c:rgb(17, 136, 85));
+				color: white;
+				border: 1px solid rgb(17, 136, 85);
+
+			}
+			#searchWord{
+				@include baseStyle($w:468px,$c:white);
+				position: absolute;
+				left: 0;
+				top: 56px;
+				border: 1px solid gray;
+				display: none;
+				li{
+					@include baseFont($s:16px, $lh:30px);
+					@include baseStyle($w:100%);
+				}
+			}
+		}
+	}
+}
+.main1{
+	@include baseStyle($h:164px);
+	.main1-1{
+		@include baseStyle($w:100%,$h:99px);
+		padding: 17px 0;
+		border-top: 1px solid rgb(175,175,175);
+		.p1,.p2,.p3,.p4{
+			float: left;
+		}
+		.p1{
+			@include baseStyle($w:130px,$h:130px);
+			img{
+				@include baseStyle($w:110px,$h:110px);
+				margin-top: 0px;
+				margin-left: 10px;
+			}
+		}
+		.p2{
+			@include baseStyle($w:390px,$h:100%);
+			text-align: left;
+			margin-left: 20px;
+			p:nth-child(1){
+				@include baseFont($s:12px,$lh:30px,$c:rgb(175,175,175));
+				a{
+					@include baseFont($s:18px,$lh:30px,$c:#185);
+				}
+				span{
+					margin-left: 10px;
+				}
+			}
+			p:nth-child(2),p:nth-child(3),p:nth-child(4){
+				@include baseFont($s:12px,$lh:24px,$c:rgb(175,175,175));
+				
+				text-overflow: ellipsis;
+				white-space: nowrap;
+				overflow: hidden;
+			}
+		}
+		.p3{
+			@include baseStyle($w:260px,$h:100%);
+			float: right;
+			p{
+				text-align: right;
+				@include baseFont($s:12px,$lh:25px,$c:rgb(175,175,175));
+			}
+		}
+		
+	}
+}
+.main1-2{
+	@include baseStyle($h:1468px);
+	.main1-2-1{
+		width: 760px;
+		height: 100%;
+		float: left;
+		.main1-2-1-1{
+			@include baseStyle($w:100%,$h:43px,$c:gray);
+		}
+		.main1-2-1-2{
+			@include baseStyle($w:100%,$h:40px,$c:red);
+			margin: 10px 0;
+		}
+		.main1-2-1-3{
+			@include baseStyle($w:100%,$h:665px);
+			li{
+				@include baseStyle($w:100%,$h:72px);
+				padding: 11px 0;
+				border-top: 1px solid rgb(175,175,175);
+				.p11,.p21,.p31,.p41{
+					float: left;
+
+				}
+				.p11{
+					@include baseStyle($w:90px,$h:95);
+					img{
+						@include baseStyle($w:70px,$h:70px);
+						margin-top: 0px;
+						margin-left: 10px;
+					}
+				}
+				.p21{
+					@include baseStyle($w:420px,$h:100%);
+					text-align: left;
+
+					p:nth-child(1){
+						@include baseFont($s:12px,$lh:30px,$c:rgb(175,175,175));
+						a{
+							@include baseFont($s:18px,$lh:30px,$c:#185);
+						}
+						span{
+							margin-left: 10px;
+						}
+					}
+					p:nth-child(2){
+						@include baseFont($s:12px,$lh:24px,$c:rgb(175,175,175));
+						margin-top: 20px;
+						text-overflow: ellipsis;
+						white-space: nowrap;
+						overflow: hidden;
+					}
+					p:nth-child(3){
+						@include baseFont($s:12px,$lh:24px,$c:rgb(175,175,175));
+						text-overflow: ellipsis;
+						white-space: nowrap;
+						overflow: hidden;
+					}
+				}
+				.p31{
+					@include baseStyle($w:120px,$h:100%);
+					margin-left: 30px;
+					p{
+						margin-top: 20px;
+						text-align: left;
+						@include baseFont($s:18px,$lh:30px,$c:#f0861c);
+					}
+				}
+				.p41{
+					@include baseStyle($w:80px,$h:70px);
+					a{
+						@include baseStyle($w:80px,$h:40px,$c:#f0861c);
+						display: block;
+						@include baseFont($s:14px,$lh:40px,$c:white);
+						margin-top: 15px;
+						margin-left: 10px;
+						text-align: center;
+						border-radius:10px ;
+					}
+				}
+			}
+		}
+	}
+}

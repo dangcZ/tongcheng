@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none; }
+
+header {
+  line-height: 33px;
+  border-bottom: 1px solid #ccc;
+  background: #eee;
+  color: green;
+  font-size: 12px;
+  position: relative; }
+  header span {
+    margin-left: 15%;
+    display: inline-block; }
+  header #zhuce {
+    float: right;
+    margin-right: 15%; }
+    header #zhuce span {
+      margin-left: 0; }
+  header a {
+    text-decoration: none;
+    border-right: 1px solid #bbb;
+    color: #666;
+    padding: 0 10px; }
+    header a:hover {
+      text-decoration: underline;
+      color: #666; }
+  header .nb {
+    border: none; }
+  header #red {
+    color: red; }
+  header #cheng {
+    display: none;
+    width: 410px;
+    position: absolute;
+    left: 105px;
+    border: 1px solid #999;
+    background: #eef;
+    padding: 5px;
+    color: #333;
+    z-index: 2; }
+    header #cheng input {
+      float: right;
+      font-size: 12px;
+      line-height: 12px;
+      height: 18px;
+      margin-top: 10px; }
+    header #cheng div {
+      padding: 5px;
+      color: #666;
+      border: 1px solid #666;
+      height: 120px; }
+      header #cheng div p {
+        float: left; }
+      header #cheng div #yin {
+        margin-top: 20px; }
+      header #cheng div div {
+        float: right;
+        width: 360px;
+        padding: 0;
+        border: 0;
+        height: auto; }
+        header #cheng div div a {
+          border: 0;
+          padding: 0 7px;
+          color: black; }
+        header #cheng div div a:hover {
+          color: orange; }
+      header #cheng div #pin a {
+        padding: 0 3px; }
+
+nav {
+  padding: 10px 15% 0;
+  border-bottom: 4px solid green; }
+  nav img {
+    margin: 10px 0; }
+  nav #quan {
+    float: right;
+    padding-right: 100px;
+    padding-bottom: 19px;
+    background: url(../images/t01822c104e5c48db32.png); }
+    nav #quan a {
+      margin: 0 5px 5px;
+      padding: 0 5px;
+      font-size: 12px;
+      color: black;
+      text-decoration: none;
+      display: inline-block; }
+    nav #quan form {
+      position: relative; }
+      nav #quan form input[type="text"] {
+        outline: none;
+        width: 450px;
+        height: 36px;
+        line-height: 36px;
+        border: 2px solid green;
+        text-indent: 10px; }
+      nav #quan form input[type="submit"] {
+        width: 100px;
+        outline: none;
+        background: green;
+        border: none;
+        height: 36px; }
+      nav #quan form ul {
+        position: absolute;
+        background: white;
+        list-style: none; }
+
+main {
+  padding: 0 15%; }
+  main p {
+    color: #666;
+    font-size: 12px;
+    margin: 10px 0 5px; }
+    main p a {
+      color: blue; }
+  main .bgeff {
+    background: #eff;
+    padding: 5px 0 15px;
+    height: 100px; }
+    main .bgeff .big {
+      height: 85px;
+      width: 85px;
+      float: left;
+      margin-right: 20px; }
+    main .bgeff .shop_name {
+      float: left; }
+      main .bgeff .shop_name h4 {
+        font-weight: 900;
+        margin-bottom: 0; }
+    main .bgeff .icon_top {
+      float: right;
+      margin-right: 30px; }
+      main .bgeff .icon_top a {
+        margin-right: 10px;
+        font-size: 12px;
+        color: #666;
+        line-height: 26px; }
+        main .bgeff .icon_top a span {
+          display: inline-block;
+          position: relative;
+          top: 5px;
+          width: 26px;
+          height: 26px;
+          border-radius: 50%;
+          background-image: url(../images/t01a1211a9e1859c837.png); }
+        main .bgeff .icon_top a #fazhi {
+          background-position: -64px 0; }
+        main .bgeff .icon_top a #jubao {
+          background-position: -32px 0; }
+  main .left {
+    width: 70%; }
+    main .left #jieshao .jies {
+      font-weight: bold;
+      color: green;
+      border-bottom: 2px solid green;
+      display: inline-block;
+      line-height: 36px;
+      margin-left: 20px;
+      margin-bottom: 0; }
+    main .left #jieshao .topBor {
+      line-height: 20px;
+      border-top: 1px solid #ccc; }
+      main .left #jieshao .topBor h5 {
+        font-weight: bold; }
+        main .left #jieshao .topBor h5 span {
+          font-weight: normal; }
+      main .left #jieshao .topBor p {
+        font-size: 14px;
+        color: black; }
+        main .left #jieshao .topBor p span {
+          font-size: 16px;
+          color: red; }
+      main .left #jieshao .topBor div {
+        color: orange; }
+    main .left #weixiu h5 {
+      padding: 10px;
+      text-indent: 10px;
+      background: pink;
+      font-weight: bold;
+      border: 1px solid orange; }
+    main .left #weixiu dl {
+      padding-left: 20px;
+      font-size: 12px;
+      color: #999;
+      border-bottom: 1px solid #ccc;
+      height: 100px; }
+      main .left #weixiu dl img {
+        margin-right: 20px;
+        float: left;
+        width: 70px;
+        height: 70px; }
+      main .left #weixiu dl .dian {
+        float: left; }
+        main .left #weixiu dl .dian .shName {
+          font-size: 15px; }
+        main .left #weixiu dl .dian dt {
+          line-height: 24px; }
+          main .left #weixiu dl .dian dt span {
+            font-weight: normal; }
+          main .left #weixiu dl .dian dt a {
+            font-weight: normal;
+            color: #666;
+            margin-left: 20px;
+            font-size: 12px; }
+        main .left #weixiu dl .dian dd .shang {
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          background-image: url(../images/t01f48138f1da401aec.png);
+          position: relative;
+          top: 5px; }
+        main .left #weixiu dl .dian dd .chai {
+          background-position: 0 -156px; }
+      main .left #weixiu dl .center {
+        float: left; }
+      main .left #weixiu dl .come {
+        float: right;
+        display: inline-block;
+        padding: 5px 10px;
+        background: orange;
+        color: white;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-right: 20px;
+        border-radius: 5px; }
+
+footer {
+  border-top: 1px solid #ccc;
+  margin-top: 10px;
+  padding: 30px 200px 0; }
+  footer ul {
+    float: left;
+    list-style: none;
+    margin-right: 50px; }
+    footer ul li {
+      padding-left: 50px;
+      font-size: 14px; }
+      footer ul li a {
+        font-size: 12px;
+        color: #666; }
+        footer ul li a:hover {
+          color: #666; }
+    footer ul .foot {
+      background-image: url(../images/t01f943ad69c4601e97.gif);
+      background-repeat: no-repeat;
+      padding: 9px 0px 9px 45px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #999; }
+    footer ul #zhifu {
+      background-position: 0 -44px; }
+    footer ul #shouhou {
+      background-position: 0 -88px; }
+    footer ul #bao {
+      background-position: 0 -130px; }
+    footer ul #hezuo {
+      background-position: 0 -175px; }
+  footer div {
+    text-align: center;
+    width: 800px;
+    margin-top: 120px;
+    font-size: 12px;
+    color: #666;
+    line-height: 20px; }
+    footer div a {
+      margin-left: 30px;
+      color: #666; }
+      footer div a:hover {
+        color: #666; }

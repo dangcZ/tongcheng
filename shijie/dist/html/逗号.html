@@ -1,0 +1,32 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>Document</title><style type="text/css">#yan{
+     	border-radius: 500px;
+/*     	transform: rotate(1000000deg);*/
+     }
+     .hei{
+     	width: 100px;
+     	height: 20px;
+     	background: #000;
+     }
+      .red{
+     	width: 100px;
+     	height: 20px;
+     	background: red;
+     }
+     #good{
+     	width: 100px;
+     	height: 100px;
+     	border: 1px solid #000;
+     	/*border-radius: 50px;*/
+     }</style></head><body><img id="yan" src="写轮眼.png"><div id="good"><div class="hei"></div><div class="red"></div><div class="hei"></div><div class="red"></div><div class="hei"></div></div></body><script type="text/javascript">var good = document.getElementById('good');
+  yan.onclick = function(){
+  	var x= 0;
+     function fx(){
+       yan.style.transform = "rotate("+x+"deg)";
+       x+=87;
+     }
+     function fy(){
+       good.style.transform = "rotate("+x+"deg)";
+       x+=30;
+     }
+     setInterval(fx,1);
+}</script></html>

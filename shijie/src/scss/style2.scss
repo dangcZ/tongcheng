@@ -1,0 +1,193 @@
+.leg{
+	width: 100%;
+	height: 824px;
+	background-image: -webkit-linear-gradient(to left, pink, #000);
+    
+
+    #leg_1{
+    	width: 90%;
+    	height: 120px;
+    	margin: 0 auto;
+    	// background-color: yellow;
+
+    	h1{
+    		text-shadow:4px 4px 3px red;
+    		font-weight: 700;
+    		color: #fff;
+    	}
+    }
+}
+.fet{
+	 margin: 0 25px;
+	width: 125px;
+	height: 48px;
+	font-weight: 700;
+	font-size: 24px;
+	background-image: -webkit-linear-gradient(to right, red, #000);
+	color: #444;
+}
+.fet2{
+	width: 560px;
+	height: 48px;
+	font-size: 30px;
+}
+body{
+	background-color: pink;
+}
+.fet3{
+	width: 125px;
+	height: 48px;
+	border:0;
+	background-image: -webkit-linear-gradient(to right, red, #000);
+	font-size: 33px;
+	color: #ccc;
+	text-align: center;
+	line-height: 48px;
+	position: absolute;
+}
+.leg_left{
+	width: 850px;
+	height: 800px;
+	margin-left: 5%;
+	// border:1px solid #000;
+}
+.iit{
+	border:1px solid gray;
+
+
+	a{
+		font-size: 22px;
+		color: #fff;
+	}
+}
+.dianpuV{
+	width: 850px;
+	height: 108px;
+	 // border-bottom:1px solid #ccc;
+}
+.logo3{
+	width: 100px;
+	height: 100px;
+	float: left;
+
+	img{
+		width: 85%;
+		height: 85%;
+		margin: 5%;
+	}
+}
+.jieshi{
+	float: left;
+	.ppo{  float: left;
+		margin-top: 8px;
+		margin-left: 25px;
+		width: 350px;
+		height: 98px;
+		// border:1px solid #000;
+	}
+	.baozi{
+		margin-left: 25px;
+		margin-top: 8px;
+		float: left;
+
+	}
+	.jinrudianpu{
+		width: 125px;
+		height: 108px;
+        float: left;
+        margin-left: 45px;
+        // border:1px solid #000;
+        input{
+        	width: 125px;
+        	height: 40px;
+        	background-image:  -webkit-linear-gradient(to right, red, #000);
+        	border:1px solid green;
+        	color: gold;
+        	font-size: 22px;
+        	font-weight: 700;
+           margin-top: 25px;
+           display: none;
+        }
+	}
+}
+.leg_right{
+	background-image:  -webkit-linear-gradient(to bottom, skyblue, #000);
+	margin-right: 5%;
+	width: 350px;
+	height: 645px;
+	border:1px solid #ccc;
+	float: right;
+   .haopingtou{
+   	width: 350px;
+   	height: 48px;
+   	background-color: #ccc;
+   	color: #000;
+   	line-height: 48px;
+   	text-align: center;
+   	font-size: 22px;
+   }
+}
+.yanzhi{
+	li{
+		width: 350px;
+		height: 99px;
+		border-bottom: 1px solid #333;
+		list-style: none;
+
+
+
+		.tty{
+			float: left;
+			width: 100px;
+			height: 99px;
+			font-size: 32px;
+			font-weight: 700;
+			color: gold;
+			text-align: center;
+			line-height: 100px;
+		
+		}
+		.jiejie{
+			float: left;
+			img{
+				width: 50px;
+				height: 50px;
+				margin-top: 25px;
+
+			}
+		}
+		.titi{
+			float: left;
+			height: 50px;
+			margin-top: 25px;
+			margin-left: 25px;
+
+			.erer{
+				color: gold;
+
+			}
+			.sdsd{
+				color: #ccc;
+			}
+
+		}
+	}
+}
+.lele{
+	li{ 
+		width: 40px;
+		height: 40px;
+		border:1px solid #fff;
+		margin: 10px;
+		list-style: none;
+		float: left;
+		text-align: center;
+		line-height: 40px;
+		color: #fff;
+
+
+	}
+	#uio{
+			width: 125px;
+		}
+}

@@ -1,0 +1,139 @@
+.foot {
+  width: 100%;
+  height: 250px;
+  background-image: -webkit-linear-gradient(to right, gray, #000); }
+  .foot .edc td {
+    color: #fff;
+    text-align: center;
+    line-height: 16px;
+    font-size: 22px;
+    font-weight: 700; }
+
+.oll {
+  color: #fff;
+  text-align: center;
+  line-height: 16px; }
+
+.zuihou {
+  color: #fff;
+  font-weight: 700;
+  text-align: center; }
+
+#container {
+  width: 800px;
+  height: 500px;
+  margin: 120px auto;
+  z-index: 800;
+  position: absolute; }
+
+#niubi {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(211, 211, 211, 0.5);
+  z-index: 8;
+  position: fixed;
+  top: 0px;
+  display: none; }
+
+#xuruyun {
+  width: 850px;
+  height: 570px; }
+
+.img_po {
+  width: 100px;
+  height: 568px;
+  float: left; }
+  .img_po img {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 19px; }
+
+.meg_po {
+  width: 746px;
+  height: 568px;
+  float: right; }
+
+.fenge li {
+  width: 744px;
+  height: 110px;
+  border-bottom: 1px solid #ccc;
+  list-style: none;
+  margin: 2px 0;
+  position: relative; }
+
+.dianname {
+  width: 150px;
+  height: 28px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: red;
+  line-height: 28px;
+  text-align: center; }
+
+.level {
+  float: left;
+  margin-left: 20px;
+  line-height: 30px;
+  position: absolute;
+  left: 170px;
+  top: 0;
+  color: #000; }
+
+.zhuying {
+  width: 400px;
+  height: 28px;
+  float: left;
+  position: absolute;
+  left: 0;
+  top: 35px;
+  line-height: 28px;
+  color: #000;
+  overflow: hidden; }
+
+.dizhi {
+  width: 400px;
+  height: 28px;
+  line-height: 28px;
+  float: left;
+  position: absolute;
+  left: 0;
+  top: 70px;
+  overflow: hidden;
+  color: #000; }
+
+.lost {
+  width: 140px;
+  height: 46px;
+  border: 2px solid #000;
+  float: right;
+  position: absolute;
+  right: 20px;
+  top: 17px;
+  text-align: center;
+  line-height: 46px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+  background-image: -webkit-linear-gradient(to top, red, #000);
+  display: none; }
+
+.renzheng {
+  width: 120px;
+  height: 80px;
+  float: right;
+  margin-right: 200px; }
+  .renzheng p {
+    margin-top: 15px; }
+  .renzheng h3 {
+    display: none; }
+
+.liut {
+  margin: 80px 280px;
+  width: 800px;
+  height: 40px;
+  position: absolute;
+  background-image: gray; }
+  .liut p {
+    font-size: 22px;
+    float: right; }

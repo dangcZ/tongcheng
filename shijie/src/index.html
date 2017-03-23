@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>dangcZ:中国第一门户</title>
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <title>基本地图展示</title>
+    <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/>
+    <script src="http://cache.amap.com/lbs/static/es5.min.js"></script>
+    <script src="http://webapi.amap.com/maps?v=1.3&key=您申请的key值"></script>
+    <script type="text/javascript" src="http://cache.amap.com/lbs/static/addToolbar.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/swiper-3.4.1.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style1.css">
+	<link rel="stylesheet" type="text/css" href="css/style3.css">
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+	<link rel="stylesheet" type="text/css" href="css/style4.css">
+
+</head>
+<body>
+   <!-- 这个部分是城市选择的位置 -->
+	<div class="top1">
+		<div class="TOP_1"><span id="city_1">唐山</span><select class="city_A">
+			<option>切换城市</option>		</select>
+           <a class="TOP_a" href="#">吃喝部首页</a>
+			</div>
+
+	 <!-- 这个部分是登录注册等部分		 -->
+    <ul class="top_ul1">
+    	<li><a href="#">投诉建议</a></li>
+        <li><a href="#">论坛</a></li>
+        <li><a href="#">客户服务 ↓</a></li>
+        <li><a href="#">在线客服（9:00-21:00）</a></li>
+        <li><a href="#">我的订单</a></li>
+        <li><a href="#">注册</a></li>
+        <li><a href="#">登录</a></li>
+    </ul>
+        
+	</div>
+	<!-- 这个部分是主要的logo还有一个导航栏的部分 -->
+     
+
+   <div class="top_2">
+      <div id="logo">
+      	  <img src="images/lunbo10.jpg" alt="">
+      </div>
+     
+   	   <ul id="liebiao2">
+   	   	<li><a href="html/6.7/html/rent.html">手机租用</a></li>
+   	   	<li><a href="html/6.7/html/forNew.html">以旧换新</a></li>
+   	   	<li><a href="html/src(1)/html/电脑维修.html">电脑维修</a></li>
+   	   	<li><a href="html/src/html/index3.html">手机维修</a></li>
+   	   	<li><a href="html/src/html/index4.html">手机回收</a></li>
+   	   	<li><a href="">二手良品</a></li>
+
+   	   </ul>
+   	  
+
+   </div>
+  
+<!-- 头部的部分就是在以上就结束了 -->
+<!-- 下面是轮播的部分，这个部分的松鹤信息量还是比较多的 -->
+<div id="body_lunbo">
+            
+            <ul class="cate-list-main">
+           	<li class="item"></li>
+           	<li class="item"></li>
+           	<li class="item"></li>
+           	<li class="item"></li>
+            </ul>
+            <div class="tanchuang">
+           
+             <table class="table table-striped">
+             	<tr>
+             	<td>黑屏></td>
+             	<td>屏碎，但显示正常</td>
+             	<td>屏幕不显示或花屏  </td>
+             	<td>屏幕触摸失灵</td>
+             	<td>Pad更换屏幕</td>           		
+             	</tr>
+             	<tr>
+             	<td>电池/充电/开机 ></td>
+             	<td> 电池问题   </td>
+             	<td>不开机</td>
+             	<td>充电(连接)问题</td>      		
+             	</tr>
+             	<tr>
+             	<td>按键></td>
+             	<td>开关机键失灵</td>
+             	<td>Home键失灵</td>
+             	<td>音量键失灵</td>
+             	<td></td>           		
+             	</tr>
+                <tr>
+             	<td>声音/震动 >></td>
+             	<td>震动功能失效</td>
+             	<td>听筒问题</td>
+             	<td>麦克风问题</td>
+             	<td>外放扬声器问题</td>
+             	<td>耳机插口故障</td>            	       </tr>
+             	<tr>
+             	<td>拍照/录像></td>
+             	<td>后摄像头无法拍照</td>
+             	<td>前摄像头拍照故障</td>          		
+             	</tr>
+             	<tr>
+             	<td>个性化服务></td>
+             	<td>点亮iPhone logo</td>
+             	<td>蓝光护眼钢化膜</td>
+             	<td>极透高清钢化膜</td>
+             	<td>爱机深度清洁</td> 
+             	<td> 手机换彩壳</td>          		
+             	</tr>
+             </table>
+            </div>
+            <!-- 第二段 -->
+            <div class="tanchuang">
+            <table class="table table-striped">
+            	 <tr>
+            	 	<td><a href="#">热门问题:</a></td>
+            	 	<td><a href="#">系统重装</a></td>
+            	 	<td><a href="#">电脑清灰</a></td>
+            	 	<td><a href="#">VR移机/安装</a></td>
+            	 	<td><a href="#">数据恢复</a></td>          	 	
+            	 </tr>
+                  <tr>
+            	 	<td><a href="#"></a></td>
+            	 	<td><a href="#">系统故障修复 </a></td>
+            	 	<td><a href="#">驱动安装</a></td>
+            	 	<td><a href="#"></a></td>
+            	 	<td><a href="#"></a></td>          	 	
+            	 </tr>
+            	  <tr>
+            	 	<td><a href="#">其他问题：</a></td>
+            	 	<td><a href="#">游戏加速</a></td>
+            	 	<td><a href="#">开机加速</a></td>
+            	 	<td><a href="#">网速优化</a></td>
+            	 	<td><a href="#">蓝屏死机</a></td>          	 	
+            	 </tr>
+            	  <tr>
+            	 	<td><a href="#"></a></td>
+            	 	<td><a href="#">电脑没声音  </a></td>
+            	 	<td><a href="#">路由器调试</a></td>
+            	 	<td><a href="#">无法上网 </a></td>
+            	 	<td><a href="#">家庭局域网</a></td>          	 	
+            	 </tr>
+            	  <tr>
+            	 	<td><a href="#"></a></td>
+            	 	<td><a href="#">更换风扇 </a></td>
+            	 	<td><a href="#">病毒查杀</a></td>
+            	 	<td><a href="#"></a></td>
+            	 	<td><a href="#"></a></td>          	 	
+            	 </tr>
+            	  <tr>
+            	 	<td><a href="#"></a></td>
+            	 	<td><a href="#"></a></td>
+            	 	<td><a href="#"></a></td>
+            	 	<td><a href="#"></a></td>
+            	 	<td><a href="#"></a></td>          	 	
+            	 </tr>
+
+            </table>
+
+            </div>
+            <!-- 第3段 -->
+            <div class="tanchuang">
+            <table class="table table-striped">
+            	 <tr>
+            	 	<td><a href="#">先锋 </a></td>
+            	 	<td><a href="#">苹果</a></td>
+            	 	<td><a href="#">三星</a></td>
+            	 	<td><a href="#">小米 </a></td>
+            	 	<td><a href="#">华为</a></td>          	 	
+            	 </tr>
+                  <tr>
+            	 	<td><a href="#">VIVO</a></td>
+            	 	<td><a href="#">OPPO</a></td>
+            	 	<td><a href="#">HTC</a></td>
+            	 	<td><a href="#">魅族</a></td>
+            	 	<td><a href="#"> 索尼</a></td>          	 	
+            	 </tr> 
+            	  <tr>
+            	 	<td><a href="#">联想</a></td>
+            	 	<td><a href="#">锤子</a></td>
+            	 	<td><a href="#">乐视</a></td>
+            	 	<td><a href="#">LG </a></td>
+            	 	<td><a href="#">中兴黑莓</a></td>          	 	
+            	 </tr>
+            	  <tr>
+            	 	<td><a href="#">美图秀秀</a></td>
+            	 	<td><a href="#">360手机</a></td>
+            	 	<td><a href="#">酷派</a></td>
+            	 	<td><a href="#">朵唯</a></td>
+            	 	<td><a href="#">诺基亚</a></td>          	 	
+            	 </tr>
+            	  <tr>
+            	 	<td><a href="#">TCL</a></td>
+            	 	<td><a href="#">PPTV</a></td>
+            	 	<td><a href="#">小辣椒</a></td>
+            	 	<td><a href="#"></a></td>
+            	 	<td><a href="#"></a></td>          	 	
+            	 </tr>
+            	  <tr>
+            	 	<td><a href="#">金立</a></td>
+            	 	<td><a href="#">摩托罗拉</a></td>
+            	 	<td><a href="#">微软</a></td>
+            	 	<td><a href="#">一加</a></td>
+            	 	<td><a href="#"></a></td>          	 	
+            	 </tr>
+
+            </table>
+
+            </div>
+            <!-- 第4段 -->
+             <div class="tanchuang">
+            <table class="table table-striped">
+            	 <tr>
+            	 	<td><a href="#">先锋 </a></td>
+            	 	<td><a href="#">苹果</a></td>
+            	 	<td><a href="#">三星</a></td>
+            	 	<td><a href="#">小米 </a></td>
+            	 	<td><a href="#">华为</a></td>          	 	
+            	 </tr>
+                  <tr>
+            	 	<td><a href="#">VIVO</a></td>
+            	 	<td><a href="#">OPPO</a></td>
+            	 	<td><a href="#">HTC</a></td>
+            	 	<td><a href="#">魅族</a></td>
+            	 	<td><a href="#"> 索尼</a></td>          	 	
+            	 </tr> 
+            	  <tr>
+            	 	<td><a href="#">联想</a></td>
+            	 	<td><a href="#">锤子</a></td>
+            	 	<td><a href="#">乐视</a></td>
+            	 	<td><a href="#">LG </a></td>
+            	 	<td><a href="#">中兴黑莓</a></td>          	 	
+            	 </tr>
+            	  <tr>
+            	 	<td><a href="#">美图秀秀</a></td>
+            	 	<td><a href="#">360手机</a></td>
+            	 	<td><a href="#">酷派</a></td>
+            	 	<td><a href="#">朵唯</a></td>
+            	 	<td><a href="#">诺基亚</a></td>          	 	
+            	 </tr>
+            	  <tr>
+            	 	<td><a href="#">TCL</a></td>
+            	 	<td><a href="#">PPTV</a></td>
+            	 	<td><a href="#">小辣椒</a></td>
+            	 	<td><a href="#"></a></td>
+            	 	<td><a href="#"></a></td>          	 	
+            	 </tr>
+            	  <tr>
+            	 	<td><a href="#">金立</a></td>
+            	 	<td><a href="#">摩托罗拉</a></td>
+            	 	<td><a href="#">微软</a></td>
+            	 	<td><a href="#">一加</a></td>
+            	 	<td><a href="#"></a></td>          	 	
+            	 </tr>
+
+            </table>
+
+            </div>
+
+             
+<div class="swiper-container">
+
+           
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" id="yi"></div>
+        <div class="swiper-slide" id="er"></div>
+        <div class="swiper-slide" id="san"></div>
+        <div class="swiper-slide" id="si"></div>
+        <div class="swiper-slide" id="wu"></div> 
+        <!-- 这个是进度条 -->
+        <div class="swiper-scrollbar"></div> 
+        </div><div id="body_m">
+	<img src="images/body_m1.jpg" alt="">
+	<img src="images/body_m2.jpg" alt="">
+	<img src="images/body_m3.jpg" alt="">
+	<img src="images/body_m4.jpg" alt="">
+</div>	
+    </div>
+	
+    </div> 
+
+    <!-- 如果需要分页器 -->
+    <!-- <div class="swiper-pagination fenye"></div> -->
+    
+    <!-- 如果需要导航按钮 -->
+    <!-- <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div> -->
+    
+    <!-- 如果需要滚动条 -->
+  
+
+
+
+<!-- 然后，下面是主页的第二页部分-->
+
+<div class="body_next">
+  <div id="nextB">
+  <div class="heng1">
+  	 <h3 id="lihe">热门手机回收</h3>
+
+  	<a href="#">查看更多>></a>
+
+  </div>
+ 
+  	<div class="next_left1">
+  		<img src="images/next_left1.png" alt="">
+
+  	</div>
+    <div class="next_right1">
+    	<div><img src="images/next_1.jpg" alt=""><p>苹果iphone6</p></div>
+    	<div><img src="images/next_2.jpg" alt=""><p>苹果iphone5</p></div>
+    	<div><img src="images/next_3.jpg" alt=""><p>小米—M4</p></div>
+    	<div><img src="images/next_4.jpg" alt=""><p>华为Mate7</p></div>
+    	<div><img src="images/next_5.jpg" alt=""><p>魅族MX5</p></div>
+  </div>
+ 
+  </div>
+  </div>
+
+  <div class="body_next2">
+  <div id="nextB">
+  <div class="heng1">
+  	 <h3>二手良品精选</h3>
+
+  	<a href="#">查看更多>></a>
+
+  </div>
+ 
+  	<div class="next_left1">
+  		<img src="images/next_left2.png" alt="">
+
+  	</div>
+    <div class="next_right1">
+    	<div><img src="images/next_1.jpg" alt=""><p>苹果iphone6</p></div>
+    	<div><img src="images/next_7.jpg" alt=""><p>三星Note3 电信版</p></div>
+    	<div><img src="images/next_8.jpg" alt=""><p>苹果 iphone 6s plus</p></div>
+    	<div><img src="images/next_9.jpg" alt=""><p>VIVO</p></div>
+    	<div><img src="images/next_10.png" alt=""><p>魅族MX5</p></div>
+  </div>
+  
+  </div>
+  </div>
+
+
+
+
+
+  <!-- 下面是第三个页面   主题：到店维修 -->
+
+
+  <div class="leg">
+  <!-- 第一部分，到店维修还有一个输入框 -->
+  	<div id="leg_1">
+  		<h1>到店维修</h1>
+        <select class="fet">
+        	<option>唐山</option>
+        	<option>秦皇岛</option>
+        	<option>石家庄</option>
+        	<option>张家口</option>
+        	<option>北京</option>
+        	<option>天津</option>
+        	<option>沈阳</option>
+        	<option>邢台</option>
+        	<option>衡水</option>      	
+        </select>
+        <select class="fet">
+        	<option>选择区县</option>
+        	<option>路北区</option>
+        	<option>路南区</option>
+        	<option>丰润区</option>
+        	<option>乐亭县</option>
+        	<option>玉田县</option>      	
+        </select>
+     <input class="fet2" type="text">
+     <input class="fet3" type="button" value="搜索">
+  	</div>
+
+
+
+    <!-- 这里是地图啊 啦啦啦 -->
+   <div id="niubi">
+       <div class="liut"><p id="ppte">X</p></div>
+   	   <div id="container">
+   	   	
+
+   	   </div>
+   </div>
+
+
+<!-- 然后进行第二部分，这个部分分为左右两部分 -->
+<div class="leg_right">
+    <div class="haopingtou">
+    	商家好评榜
+    </div>	
+   <div class="yanzhi">
+   	<ul>
+   		<li>
+   	     <div class="tty">No.1</div>
+         <div class="jiejie">
+         	<img src="images/dianpu1.jpg" alt="">
+         </div>
+         <div class="titi">
+         	<a class="erer" href="#">北京鸿翔科技</a><br>
+         	<a class="sdsd" href="#">666666条评论</a>
+
+         </div>
+   		</li>
+   		<li> <div class="tty">No.2</div>
+         <div class="jiejie">
+         <img src="images/dianpu2.jpg" alt="">
+         </div>
+         <div class="titi">
+         	<a class="erer" href="#">旭哥科技有限公司</a><br>
+         	<a class="sdsd" href="#">666666条评论</a>
+
+         </div></li>
+   		<li><div class="tty">No.3</div>
+         <div class="jiejie">
+         	<img src="images/dianpu3.jpg" alt="">
+         </div>
+         <div class="titi">
+         	<a class="erer" href="#">东京热公司</a><br>
+         	<a class="sdsd" href="#">666666条评论</a>
+
+         </div></li>
+   		<li><div class="tty">No.4</div>
+         <div class="jiejie">
+         	<img src="images/dianpu4.jpg" alt="">
+         </div>
+         <div class="titi">
+         	<a class="erer" href="#">唐山开滦集团</a><br>
+         	<a class="sdsd" href="#">666666条评论</a>
+
+         </div></li>
+   		<li><div class="tty">No.5</div>
+         <div class="jiejie">
+         	<img src="images/dianpu5.gif" alt="">
+         </div>
+         <div class="titi">
+         	<a class="erer" href="#">金戈铁马公司</a><br>
+         	<a class="sdsd" href="#">666666条评论</a>
+
+
+         </div></li>
+   		<li><div class="tty">No.6</div>
+         <div class="jiejie">
+         	<img src="images/dianpu1.jpg" alt="">
+         </div>
+         <div class="titi">
+         	<a class="erer" href="#">什么都不是公司</a><br>
+         	<a class="sdsd" href="#">666666条评论</a>
+
+         </div></li>
+   		
+
+
+   	</ul>
+
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <div class="leg_left">
+    	<table class="table iit">
+    		 <tr>
+    		 	<td><a href="#">默认顺序</a></td>
+    		 	<td><a href="#">按成交量</a></td>
+    		 	<td><a href="#">按人气</a></td>
+    		 	<td><input type="checkbox"><a href="#">先行赔付</a></td>
+                <td></td>
+                <td></td>
+                <td><button id="ditu" href="#">地图模式</button></td>
+    		 </tr>
+
+    	</table>
+
+  <div id="xuruyun">
+     <div class="img_po">
+       <img src="images/dianpu1.jpg" alt="">
+        <img src="images/dianpu2.jpg" alt="">
+         <img src="images/dianpu3.jpg" alt="">
+          <img src="images/dianpu4.jpg" alt="">
+           <img src="images/dianpu5.gif" alt="">
+
+     </div>
+     <div class="meg_po">
+       <ul class="fenge">
+         <li>
+           <a class="dianname" href="#"></a>  
+           <p class="level">店铺等级：★★★★</p> 
+           <a class="lost" >进入店铺</a>
+           <p class="zhuying"></p>
+           <p class="dizhi"></p>
+           <div class="renzheng">
+                <h3></h3>
+               <p><img src="images/yusheng.jpg" alt="">先行赔付</p>
+                <p><img src="images/quai.png" alt="">同城帮认证</p>
+           </div>
+         </li>
+         <li> <a class="dianname" href="#"></a>  <p class="level">店铺等级：★★★★</p> <a class="lost" href="http://127.0.0.1:1030/html/jinrudianpu.html">进入店铺</a>
+           <p class="zhuying"></p>
+           <p class="dizhi"></p><div class="renzheng">
+           <h3></h3>
+               <p><img src="images/yusheng.jpg" alt="">先行赔付</p>
+                <p><img src="images/quai.png" alt="">同城帮认证</p>
+           </div></li>
+            
+         <li> <a class="dianname" href="#"></a>  <p class="level">店铺等级：★★★★</p> <a class="lost" href="http://127.0.0.1:1030/html/jinrudianpu.html">进入店铺</a>
+           <p class="zhuying"></p>
+           <p class="dizhi"></p>
+            <div class="renzheng">
+            <h3></h3>
+               <p><img src="images/yusheng.jpg" alt="">先行赔付</p>
+                <p><img src="images/quai.png" alt="">同城帮认证</p>
+           </div></li>
+         <li> <a class="dianname" href="#"></a>  <p class="level">店铺等级：★★★★</p> <a class="lost" href="http://127.0.0.1:1030/html/jinrudianpu.html">进入店铺</a>
+           <p class="zhuying"></p>
+           <p class="dizhi"></p>
+            <div class="renzheng">
+            <h3></h3>
+               <p><img src="images/yusheng.jpg" alt="">先行赔付</p>
+                <p><img src="images/quai.png" alt="">同城帮认证</p>
+           </div></li>
+         <li> <a class="dianname" href="#"></a>  <p class="level">店铺等级：★★★★</p> <a class="lost" href="http://127.0.0.1:1030/html/jinrudianpu.html">进入店铺</a>
+           <p class="zhuying"></p>
+           <p class="dizhi"></p>
+            <div class="renzheng">
+            <h3></h3>
+               <p><img src="images/yusheng.jpg" alt="">先行赔付</p>
+                <p><img src="images/quai.png" alt="">同城帮认证</p>
+           </div></li>
+
+       </ul>
+
+     </div>
+
+  </div>
+
+
+
+
+
+
+
+   
+<ul class="lele">
+	<li>1</li>
+	<li>2</li>
+	<li>3</li>
+	<li>4</li>
+	<li>5</li>
+	<li>6</li>
+	<li>7</li>
+	<li>8</li>
+	<li>9</li>
+	<li>10</li>
+	<li id="uio">下一页</li>
+
+</ul>
+
+    </div>
+
+
+<!-- 然后 这里到了腿的右半部分 -->
+    
+
+
+  
+  </div>
+
+<div class="foot">
+  <div class="vgy">
+	<table class="table rfv">
+		<tr class="edc">
+			<td>购物指南</td>
+			<td>支付方式</td>
+			<td>售后服务</td>
+			<td>特色保障</td>
+			<td>商家合作</td>
+		</tr>
+		<tr class="oll">
+			<td>购物流程</td>
+			<td>在线支付</td>
+			<td>360担保支付</td>
+			<td>投诉建议</td>
+			<td>加盟同城帮</td>
+		</tr>
+        <tr class="oll">
+			<td>用户注册</td>
+			<td>帮助文档</td>
+			<td>当面付款</td>
+			<td></td>
+			<td>新闻采访/跨界合作</td>
+		</tr>
+
+
+	
+
+
+
+	
+
+
+	
+
+
+	
+
+
+
+
+
+
+
+	</table>
+</div>
+<p class="zuihou">
+
+客服电话：4000-399-360 / 010-53767360 投诉建议 网站地图<br>
+
+Copyright © 2005-2017  360.CN  All Rights Reserved <br> 360安全中心
+
+京ICP备08010314号-19    京公网安备110000000006号
+</p>
+</div>
+
+
+
+  
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/swiper.animate1.0.2.min.js" type="text/javascript"></script>
+<script src="js/swiper-3.4.1.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+   // 这个是轮播的位置
+
+	 var mySwiper = new Swiper ('.swiper-container', {
+    // direction: 'vertical',
+    loop: true,
+    autoplay:3000,
+    speed:300,
+    // 如果需要分页器
+    pagination: '.swiper-pagination',
+    
+    // 如果需要前进后退按钮
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+    
+    // 如果需要滚动条
+    scrollbar: '.swiper-scrollbar',
+  })        
+
+// 下面是地图的js
+
+    var map = new AMap.Map('container', {
+        resizeEnable: true,
+        zoom:11,
+        center: [116.397428, 39.90923]
+    });
+
+
+
+
+
+</script>
+</body>
+<script src="js/main.js" type="text/javascript"></script>
+	
+</html>
